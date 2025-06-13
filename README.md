@@ -1,6 +1,6 @@
 # Hello World, Playdate (on Rust)
 
-A very simple starter [Playdate](https://play.date) game written in Rust using the [crankstart](https://crates.io/crates/crankstart) crate. 
+A very simple starter [Playdate](https://play.date) game written in Rust using the [crankstart](https://crates.io/crates/crankstart) crate. Follow the tutorial at http://missfunmi.com/building-a-playdate-game-in-rust/.
 
 ![screenshot](game.png)
 
