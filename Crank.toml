@@ -1,0 +1,13 @@
+[[target]]
+    name = "hello_world_playdate"               # Note that hyphens will not work here. See https://github.com/pd-rs/crankstart/issues/89
+    assets = [
+        "assets/background.png",
+        "assets/dot.png",
+        "assets/player.png",
+    ]
+    [target.metadata]
+    name = "Hello World"
+    version = "0.1.0"
+    author = "Jane Doe"
+    bundle_id = "com.example.hello_world"
+    description = "Hello, World Playdate game built in Rust"
