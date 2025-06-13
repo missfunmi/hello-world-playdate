@@ -12,11 +12,11 @@ use crankstart::{crankstart_game, Game, Playdate};
 use crankstart_sys::{LCDBitmapFlip, PDButtons, PDRect};
 use euclid::point2;
 
-const MOVE: f32 = 4.0; // We let the player move 4 pixels at a time
 const SCREEN_WIDTH: f32 = 400.0;
 const SCREEN_HEIGHT: f32 = 240.0;
-const PLAYER_SPRITE_WIDTH: f32 = 32.0;
-const PLAYER_SPRITE_HEIGHT: f32 = 32.0;
+const MOVE: f32 = 2.0;                    // We'll let the player move 2 pixels at a time
+const PLAYER_SPRITE_WIDTH: f32 = 32.0;    // Width in pixels of player.png
+const PLAYER_SPRITE_HEIGHT: f32 = 32.0;   // Height in pixels of player.png
 
 struct HelloWorldGame {
     background_image: Bitmap,
